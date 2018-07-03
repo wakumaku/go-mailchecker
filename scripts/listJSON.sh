@@ -1,0 +1,1 @@
+curl -s https://raw.githubusercontent.com/wakumaku/mailchecker/master/list.json | grep -v "  //"
