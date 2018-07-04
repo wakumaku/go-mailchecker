@@ -1,1 +1,1 @@
-curl -s https://raw.githubusercontent.com/wakumaku/mailchecker/master/list.json | grep -v "  //"
+curl -s https://raw.githubusercontent.com/FGRibreau/mailchecker/master/list.json | grep -v "  //"
