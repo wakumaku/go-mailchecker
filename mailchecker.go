@@ -4,10 +4,12 @@ import (
 	"strings"
 )
 
+// Blacklist returns the complete list of blacklisted domains used for validation
 func Blacklist() []string {
 	return blacklist[:]
 }
 
+// IsValid will check if an email is a valid email addres and is not blacklisted
 func IsValid(email string) bool {
 	return validEmail(email) && !isBlacklisted(email)
 }
