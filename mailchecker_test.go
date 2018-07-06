@@ -51,9 +51,9 @@ func TestReturnFalseIfThrowableDomain(t *testing.T) {
 
 func TestReturnFalseForBlacklistedDomainsAndTheirSubdomains(t *testing.T) {
 	for _, blacklistedDomain := range Blacklist() {
-		isInvalid("test@"+blacklisted_domain, t)
-		isInvalid("test@subdomain."+blacklisted_domain, t)
+		isInvalid("test@"+blacklistedDomain, t)
+		isInvalid("test@subdomain."+blacklistedDomain, t)
 		// Should not be invalid as a subdomain of a valid domain.
-		isValid("test@"+blacklisted_domain+".gmail.com", t)
+		isValid("test@"+blacklistedDomain+".gmail.com", t)
 	}
 }
