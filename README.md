@@ -1,3 +1,10 @@
+# This repository is no longer maintained.
+
+Please, refer to the original *mailchecker* which is now available as a go module
+
+* https://github.com/FGRibreau/mailchecker
+* https://godoc.org/github.com/FGRibreau/mailchecker/platform/go
+
 # Mailchecker [![Build Status](https://travis-ci.org/wakumaku/go-mailchecker.svg?branch=master)](https://travis-ci.org/wakumaku/go-mailchecker) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b66f7d42dcb413bbf96f8f4d1471020)](https://www.codacy.com/app/wakumaku/go-mailchecker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wakumaku/go-mailchecker&amp;utm_campaign=Badge_Grade) [![Code Coverage](https://scrutinizer-ci.com/g/wakumaku/go-mailchecker/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/wakumaku/go-mailchecker/?branch=master) [![GoDoc](https://godoc.org/github.com/wakumaku/go-mailchecker?status.svg)](https://godoc.org/github.com/wakumaku/go-mailchecker)
 
 ### Disposable email address (DEA) detection
